@@ -602,6 +602,7 @@ let box = document.querySelector(".box");
 let ascendingBtn = document.querySelector(".ascending");
 let descendingBtn = document.querySelector(".descending");
 let nameBtn = document.querySelector(".name");
+let searchBtn = document.querySelector(".search");
 
 table.style.display = "flex";
 table.style.justifyContent = "center";
@@ -645,4 +646,13 @@ descendingBtn.addEventListener("click", function () {
 nameBtn.addEventListener("click", function () {
   let name = data.sort((a, b) => a.first_name.localeCompare(b.first_name));
   drawTable(name);
+});
+
+searchBtn.addEventListener("keyup", function (elem) {
+  let filteredNames = data.filter((user) =>
+    user.first_name
+      .toLocaleLowerCase()
+      .includes(elem.target.value.toLocaleLowerCase())
+  );
+  drawTable(filteredNames);
 });
