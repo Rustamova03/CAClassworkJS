@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.header h1 {
+  color: rgb(158, 22, 22);
+}
+.header input {
+  padding: 2px 50px;
+  border-color: gray;
+  border-radius: 10px;
+}
+.header nav ul {
+  display: flex;
+  gap: 20px;
+}
+.header nav ul li a {
+  color: rgb(77, 68, 68);
+}
+.header nav ul li a:hover {
+  color: red;
+  transition: 1.2s;
+}
+section {
+  margin-top: 50px;
+}
+.box {
+  border: 2px solid rgb(75, 73, 73);
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.read {
+  color: teal;
+  font-size: 1.2rem;
+}
+.lorem {
+  color: brown;
+  font-size: 1.2rem;
+}
+.btn {
+  display: flex;
+  gap: 5px;
+}
+.delete {
+  background-color: rgb(13, 138, 131);
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: white;
+  width: 20%;
+}
+.edit {
+  background-color: rgb(122, 14, 223);
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: white;
+  width: 20%;
+}
