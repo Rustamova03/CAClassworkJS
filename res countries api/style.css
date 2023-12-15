@@ -1,0 +1,10 @@
+img{
+    width: 100%;
+}
+.card{
+    width: 20%;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
