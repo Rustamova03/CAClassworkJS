@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 85%;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header nav ul li a {
+  color: white;
+}
+.header nav ul li a:hover {
+  color: red;
+  transition: 0.6s;
+}
+.headericons {
+  display: flex;
+  gap: 20px;
+}
+.headericons a i {
+  color: white;
+}
+.carousel-item img {
+  height: 100vh;
+  position: relative;
+}
+.carousel-content {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  color: white;
+}
+.carousel-content h2 {
+  font-size: 3rem;
+}
+.carousel-content h1 {
+  font-size: 4.5rem;
+}
+.carousel-content button {
+  width: 35%;
+  padding: 5px 0;
+  margin-left: 120px;
+  background-color: white;
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.italianrestaurant {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 100px 0;
+}
+.italianrestaurantleft {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.italianrestaurantleft button {
+  width: 20%;
+  margin-left: 250px;
+  border: none;
+  background-color: transparent;
+  color: #666;
+}
+.italianrestaurantleft button:hover {
+  color: red;
+  transition: 0.6s;
+}
+.italianrestaurantleft p {
+  font-size: 1.7rem;
+  color: red;
+}
+.italianrestaurantleft h1 {
+  font-size: 3rem;
+}
+.italianrestaurantleft span {
+  color: #666;
+}
+
+.italianrestaurantright {
+  width: 40%;
+}
+.italianrestaurantright img {
+  width: 80%;
+  border-radius: 20px;
+}
+.dinamicsection .cards .card {
+  width: 30%;
+}
+.dinamicsection .cards .card p {
+  color: #666;
+}
+
+.dinamicsection .cards .card button {
+  width: 40%;
+  border: none;
+  color: #666;
+  background-color: transparent;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blog {
+  padding: 100px 0;
+}
+
+.blogtop {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+}
+.blogtop p {
+  font-size: 2rem;
+  color: red;
+}
+.blogtop h1 {
+  font-size: 3rem;
+}
+
+.blogcards {
+  display: flex;
+  justify-content: space-between;
+}
+.blogcard {
+  width: 30%;
+  border: 1px solid #989898;
+}
+.blogcard img {
+  width: 100%;
+}
+.blogcard button {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+}
+.blogcard button:hover {
+  color: red;
+  transition: 0.6s;
+}
+.sendemails {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+.sendemails input {
+  padding: 0 50px;
+}
+.sendemails button {
+  padding: 0 30px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.contact {
+  text-align: center;
+}
+footer{
+  background-color: #222;
+  margin-top: 50px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  color: white;
+}
+.footerleft {
+  width: 30%;
+}
+.footermedium {
+  width: 30%;
+}
+.footerrightbottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.footerright {
+  width: 30%;
+}
+.footerrightbottom img {
+  width: 20%;
+}
+.footericon,.footermediumbottom {
+  display: flex;
+  gap: 5px;
+}
+.form {
+  text-align: center;
+}
+.form button {
+  padding: 7px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+table {
+  margin: 50px 0;
+  border-collapse: collapse;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  padding: 8px 0;
+  margin-left: 430px;
+}
+
+tbody tr td,
+th {
+  width: 20%;
+  text-align: center;
+  border: 1px solid black;
+}
+tbody tr td img {
+  width: 60%;
+}
+tbody tr td button {
+  padding: 7px 13px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.search {
+  padding: 5px 20px;
+}
+
+.ascBtn {
+  padding: 7px 10px;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  border: transparent;
+}

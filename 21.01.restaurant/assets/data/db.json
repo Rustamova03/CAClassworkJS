@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "./assets/image/intro-01.jpg",
+      "title": "DELICIOUS FOOD",
+      "description": "Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna"
+    },
+    {
+      "id": "2",
+      "image": "./assets/image/intro-02.jpg",
+      "title": "DELICIOUS FOOD",
+      "description": "Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna"
+    },
+    {
+      "id": "3",
+      "image": "./assets/image/intro-04.jpg",
+      "title": "RED WINES YOU LOVE",
+      "description": "Sed ornare ligula eget tortor tempor, quis porta tellus dictum."
+    }
+  ]
+}

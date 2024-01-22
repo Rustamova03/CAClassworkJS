@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#headertop {
+  background-color: #0d2d3e;
+  padding: 20px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerleft {
+  display: flex;
+  gap: 5px;
+  font-size: 1.3rem;
+  color: white;
+}
+.headerright {
+  display: flex;
+  gap: 10px;
+  font-size: 1.3rem;
+  color: white;
+}
+.consulting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.consultingleft {
+  font-size: 1.3rem;
+  color: #0d2d3e;
+}
+.consultingright {
+  display: flex;
+  gap: 15px;
+  font-size: 1.3rem;
+}
+.consultingright a {
+  color: #0d2d3e;
+}
+#ourservices {
+  background-image: url(./image/h1_hero.jpg);
+
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  padding: 250px 0;
+}
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0;
+}
+.ourservices p{
+   font-size: 1.5rem;
+}
+.ourservicescontent{
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.ourservicescontent p{
+   font-size: 1.5rem;
+}
+
+.ourservices h1 {
+   font-size: 6rem;
+   font-weight: bold;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ourservices button{
+    width: 15%;
+    padding: 25px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+#services{
+    background-color: #e5e3e3;
+    padding: 150px 0;
+    color: #0d2d3e;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.servicescontent{
+    display: flex;
+    font-size: 1.5rem;
+    color: red;
+}
+.servicestop h1{
+    font-size: 3.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.servicesbottom{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:50px;
+    background-color: white;
+    width: 32%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cards i{
+    font-size: 4rem;
+    color: rgb(216, 76, 76);
+}
